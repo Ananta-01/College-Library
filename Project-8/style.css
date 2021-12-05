@@ -1,0 +1,52 @@
+.container-lg{
+    max-width: 1050px;
+}
+body{
+    
+    background: linear-gradient(to right, #304760, #304C6A);
+    color: rgb(197, 197, 197);
+    font-family: 'Cormorant Garamond', serif;
+
+
+
+}
+.navbar-brand{
+    color: rgb(197, 197, 197);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+letter-spacing: 0.09em;
+line-height: 0px;
+font-size: 1.4rem;
+ 
+}
+.nav-link{
+    color: rgb(197, 197, 197);
+}
+.colours{
+    color:rgb(197, 197, 197);
+}
+.table{
+    color: rgb(197, 197, 197);
+}
+td{
+    /* border: 1px solid black; */
+    border-color: #ffffff3d;
+border-style: solid;
+border-width: 0;
+text-transform: capitalize;
+}
+.row{
+    padding: 10px 0px;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+@media screen and (max-width: 360px) {
+    .table{
+        font-size: small;
+    }
+    .delete{
+        font-size: smaller;
+    }
+  }
